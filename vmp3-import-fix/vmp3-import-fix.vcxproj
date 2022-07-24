@@ -161,19 +161,22 @@
     <ClCompile Include="ApiReader.cpp" />
     <ClCompile Include="Architecture.cpp" />
     <ClCompile Include="DeviceNameResolver.cpp" />
+    <ClCompile Include="dump.cpp" />
     <ClCompile Include="NativeWinApi.cpp" />
     <ClCompile Include="PeParser.cpp" />
     <ClCompile Include="ProcessAccessHelp.cpp" />
     <ClCompile Include="StringConversion.cpp" />
     <ClCompile Include="SystemInformation.cpp" />
     <ClCompile Include="unicorn_emulator.cpp" />
-    <ClCompile Include="vmp3-import-fix.cpp" />
+    <ClCompile Include="vmp3_import_fix.cpp" />
+    <ClCompile Include="zydis_disasm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ApiReader.h" />
     <ClInclude Include="Architecture.h" />
     <ClInclude Include="argparse.hpp" />
     <ClInclude Include="DeviceNameResolver.h" />
+    <ClInclude Include="dump.h" />
     <ClInclude Include="NativeWinApi.h" />
     <ClInclude Include="PeParser.h" />
     <ClInclude Include="ProcessAccessHelp.h" />
@@ -182,7 +185,8 @@
     <ClInclude Include="SystemInformation.h" />
     <ClInclude Include="Thunks.h" />
     <ClInclude Include="unicorn_emulator.h" />
-    <ClInclude Include="vmp3-import-fix.h" />
+    <ClInclude Include="vmp3_import_fix.h" />
+    <ClInclude Include="zydis_disam.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
